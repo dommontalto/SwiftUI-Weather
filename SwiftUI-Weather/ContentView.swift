@@ -52,6 +52,18 @@ struct ContentView: View {
                 }
                 
                 Spacer()
+                
+                Button {
+                    
+                } label: {
+                    Text("Change Day Time")
+                        .frame(width: 280, height: 50)
+                        .background(.white)
+                        .font(.system(size: 20, weight: .bold, design: .default))
+                        .cornerRadius(10)
+                }
+                
+                Spacer()
             }
         }
     }
